@@ -29,7 +29,7 @@ set(INCLUDE_DIR
 )
 
 set(INCLUDE_FILES
-	"${INCLUDE_DIR}/errors.h"
+	"${INCLUDE_DIR}/logging.h"
 )
 
 set(SOURCE_DIR 

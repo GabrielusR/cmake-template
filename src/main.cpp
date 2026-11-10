@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "errors.h"
+#include "logging.h"
 
 int main() {
 

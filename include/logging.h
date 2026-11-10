@@ -15,7 +15,7 @@ struct ErrObj {
 	explicit operator bool() const { return (code == ErrCode::NoErr || strlen(status) == 0) ? false : true; }
 };
 
-std::ostream & operator <<(std::ostream &err, const ErrObj& obj) {
+static std::ostream & operator <<(std::ostream &err, const ErrObj& obj) {
 
 	err << "Error " << obj.code << " - " << obj.status;
 
