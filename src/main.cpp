@@ -11,7 +11,7 @@ int main() {
 
 	PRINT("PRINT funciona!");
 
-	LOG("LOG funciona!");
+	LOG(std::cout, "LOG funciona!");
 
 	DEBUG("DEBUG");
 
